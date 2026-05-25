@@ -159,6 +159,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.msm8974
 
+# Wifi
+PRODUCT_PACKAGES += \
+    libnetcmdiface
+
 # GPS
 PRODUCT_PACKAGES += \
     libloc_adapter \
